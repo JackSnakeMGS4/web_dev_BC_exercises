@@ -28,7 +28,7 @@
 		<label for="email">Email:</label>
 		<input type="email" name="EMAIL" id="email" placeholder="johnsmith@email.com" required>
 		<label for="password">Password:</label>
-		<input type="password" name="PASSWORD" placeholder="test123" size="8" minlength="8" maxlength="20" required>
+		<input type="password" name="PASSWORD" placeholder="test123" pattern=".{8,20}" title="Password must be between 8 and 20 characters long" required>
 		<br>
 		<label>
 			Birthday
@@ -42,7 +42,7 @@
 				<option>Year</option>
 			</select>
 		</label>
-		<p>I agree to the terms and conditions <input type="checkbox" name="TERMS+CONDITIONS" required></p>
+		<p>I agree to the terms and conditions <input type="checkbox" name="TERMS+CONDITIONS"></p>
 	 	<input type="submit">
 
 	</form>
