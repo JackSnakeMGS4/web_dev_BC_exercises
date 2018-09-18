@@ -1,0 +1,52 @@
+#gtHead
+{
+	text-align: center;
+}
+
+#gameTable
+{
+	margin: 0 auto;
+}
+
+.topCells
+{
+	width:100px;
+	height:100px;
+}
+
+#topMiddle
+{
+	width:100px;
+	height:100px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.cells
+{
+	width:100px;
+	height:100px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#center
+{
+	width:100px;
+	height:100px;
+	border: 1px solid black;
+}
+
+.bottomCells
+{
+	width:100px;
+	height:100px;
+}
+
+#bottomMiddle
+{
+	width:100px;
+	height:100px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
