@@ -1,0 +1,32 @@
+img
+{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25%;
+}
+
+img:hover
+{
+	border-radius: 0px;
+}
+
+p
+{
+	font-family: Raleway;
+	margin-left: 1.66%;
+	font-size: 25px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 5px solid rgba(100, 150, 235, 0.3);
+	width: 30%;
+	border-radius: 10px;
+	padding: 5px;
+	letter-spacing: 5px;
+	background: rgba(255,0,200, 0.2);
+}
+
+body
+{
+	background-color: rgba(100, 200, 150, 0.6);
+}
