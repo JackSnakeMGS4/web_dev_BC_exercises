@@ -1,0 +1,30 @@
+body
+{
+	padding-top: 70px;
+}
+
+.jumbotron
+{
+	color: rgba(125, 60, 150, .7);
+	background: rgba(50, 10, 10, 0.9);
+}
+
+.navbar-inverse
+{
+	background: rgba(50, 50, 15, 0.9);
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+	color: rgb(50, 100, 185);
+}
+
+.navbar-inverse .navbar-brand
+{
+	color: rgb(50, 100, 185);
+}
+
+.fa-camera-retro
+{
+	font-size: 125px;
+}
