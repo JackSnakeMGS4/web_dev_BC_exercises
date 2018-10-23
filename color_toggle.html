@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Toggle</title>
+</head>
+<body>
+	<button onclick="toggleColor()">Click to change color!</button>
+
+	<script type="text/javascript">
+		var body = document.querySelector("body");
+		var hasChanged = false;
+
+		function toggleColor()
+		{
+			if(!hasChanged)
+			{
+				body.style.background = "orange";
+			}
+			else if(hasChanged)
+			{
+				body.style.background = "white";
+			}
+			hasChanged = !hasChanged;
+		}
+
+		//remember event listeners! you could have done button.addEventListener("click", function(){})
+	</script>
+</body>
+</html>
