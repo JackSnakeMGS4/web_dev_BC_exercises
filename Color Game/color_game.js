@@ -4,6 +4,7 @@ var squares = document.querySelectorAll(".square");
 var colorToWin = chooseWinningColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
+var h1 = document.querySelector("h1");
 
 colorDisplay.textContent = colorToWin;
 
@@ -19,6 +20,7 @@ for(var i = 0; i < squares.length; i++)
 		{
 			messageDisplay.textContent = "Hell Yes!";
 			changeColors(chosenColor);
+			h1.style.backgroundColor = chosenColor;
 		}
 		else
 		{

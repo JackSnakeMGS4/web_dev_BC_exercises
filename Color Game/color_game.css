@@ -32,3 +32,10 @@ span
 {
 	color: rgb(155, 25, 10);
 }
+
+#navbar
+{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
